@@ -39,7 +39,7 @@ const Carrusel = () => {
   
   return <Carousel>
     {
-      muebles.map(it => {
+      motos.map(it => {
         return (<Carousel.Item onClick={(e) => {
           e.preventDefault(); handleClick(it.slug)
         }}>

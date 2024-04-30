@@ -35,7 +35,7 @@ const router = createBrowserRouter([
                         </div>
 
                         <div className="col-md-3">
-                            <h2>Rellene el formulario de inscripción</h2>
+                            <h2>FORMULARIO DE REGISTRO</h2>
                             <Content></Content>
                         </div>
                     </div>
