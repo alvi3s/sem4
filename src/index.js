@@ -29,13 +29,12 @@ const router = createBrowserRouter([
                    
                     <div className="row">
                         <div className="col-md-6">
-
                             <Carrusel></Carrusel>
                             <Message></Message>
                         </div>
 
                         <div className="col-md-3">
-                            <h2>FORMULARIO DE REGISTRO</h2>
+                            <h2 style={{ color: 'orange', fontFamily: 'Century Gothic, sans-serif' }}>FORMULARIO DE REGISTRO</h2> {/* Subtítulo con fuente "Century Gothic" */}
                             <Content></Content>
                         </div>
                     </div>
